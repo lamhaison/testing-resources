@@ -146,7 +146,7 @@ Like that
 
 # Update a totolist
 ```
-url: /api/todos/{{ todo_id }}
+url: /api/todos/{{ todo_id }}/
 method: PUT
 BODY: what you want to change. In my example I will change done atribute to true
 {
@@ -162,7 +162,7 @@ BODY: what you want to change. In my example I will change done atribute to true
 }
 
 # Response: information of todo item which you have just updated
-status code is 200 will be successful
+status code is 201 will be successful
 Like that
 {
     "user": {
