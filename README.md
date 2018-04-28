@@ -109,3 +109,37 @@ Response body like that:
 }
 
 ```
+
+# Create a todolist
+```
+# Request:
+url: /api/todos/
+method: POST
+BODY: you can change item attributes
+{
+    "user": {
+        "id": 1,
+        "username": "admin",
+        "email": "sonlh@gmail.com",
+        "date_joined": "2018-04-05T03:46:43.227754Z"
+    },
+    "name": "study postman update task",
+    "done": false,
+    "date_created": "2018-04-05T03:48:21.899078Z"
+}
+
+# Response: information of todo item which you have just created 
+status code is 200 will be successful
+Like that
+{
+    "user": {
+        "id": 1,
+        "username": "admin",
+        "email": "sonlh@gmail.com",
+        "date_joined": "2018-04-05T03:46:43.227754Z"
+    },
+    "name": "study postman update task",
+    "done": false,
+    "date_created": "2018-04-05T03:48:21.899078Z"
+}
+```
