@@ -1,4 +1,4 @@
-# REST API to practies testing api using POSTNAME
+# REST API to practies testing api using POSTMAN
 
 # SERVER INFORMATION
 ```
