@@ -3,7 +3,7 @@
 # SERVER INFORMATION
 ```
 Server: http://log.uiza.io:8091
-Token headder:
+Token headder: using in all request
 		Authorization: Token a27660c649afcaee39b94f7ece682cfb9649d4e7
 ```
 
@@ -176,3 +176,13 @@ Like that
     "date_created": "2018-04-05T03:48:21.899078Z"
 }
 ```
+
+# Delete a toto item
+```
+# Request
+url: /api/todos/{{ todo_id }}
+method: DELETE
+
+# Response: 
+status code is 200 will be successful
+status code is 404 means item is not existing
