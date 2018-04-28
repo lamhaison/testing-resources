@@ -143,3 +143,36 @@ Like that
     "date_created": "2018-04-05T03:48:21.899078Z"
 }
 ```
+
+# Update a totolist
+```
+url: /api/todos/{{ todo_id }}
+method: PUT
+BODY: what you want to change. In my example I will change done atribute to true
+{
+    "user": {
+        "id": 1,
+        "username": "admin",
+        "email": "sonlh@gmail.com",
+        "date_joined": "2018-04-05T03:46:43.227754Z"
+    },
+    "name": "study postman update task",
+    "done": true,
+    "date_created": "2018-04-05T03:48:21.899078Z"
+}
+
+# Response: information of todo item which you have just updated
+status code is 200 will be successful
+Like that
+{
+    "user": {
+        "id": 1,
+        "username": "admin",
+        "email": "sonlh@gmail.com",
+        "date_joined": "2018-04-05T03:46:43.227754Z"
+    },
+    "name": "study postman update task",
+    "done": true,
+    "date_created": "2018-04-05T03:48:21.899078Z"
+}
+```
