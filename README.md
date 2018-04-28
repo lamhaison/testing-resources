@@ -2,7 +2,7 @@
 
 # SERVER INFORMATION
 ```
-Server: http://log.uiza.io:8091
+Server: http://********:****
 Token headder: using in all request
 		Authorization: Token a27660c649afcaee39b94f7ece682cfb9649d4e7
 ```
